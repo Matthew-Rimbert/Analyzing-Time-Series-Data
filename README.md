@@ -7,6 +7,7 @@ This project focuses on analyzing time series data to extract meaningful statist
 ### Introduction
 
 **Purpose**: The primary aim of this project is to analyze stock market data over the past month to identify trends and significant changes in price and volume.
+
 ![overview](https://github.com/user-attachments/assets/1a096bc3-7bfb-45d0-98dc-6688ea90260d)
 
 ### Summary of Rules
