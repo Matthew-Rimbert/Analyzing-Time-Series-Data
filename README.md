@@ -4,9 +4,9 @@
 
 This project focuses on analyzing time series data to extract meaningful statistics and identify trends using real-world stock market data.
 
-### 📈 Summary
+### Introduction
 
-**Purpose**: The primary aim of this project is to analyze Tesla's stock market data over the past month to identify trends and significant changes in price and volume.
+**Purpose**: The primary aim of this project is to analyze stock market data over the past month to identify trends and significant changes in price and volume.
 
 **Scope**: The project involves:
 - Loading Tesla stock market data using the `yfinance` library.
@@ -24,7 +24,14 @@ Running this script will display the analysis of significant changes:
 - **Significant Price Changes**: Filtering for significant price changes helps in identifying key events or trading days that had a major impact on the stock price.
 
 ### Data Source
-
+```python
+print("Loading stock market data for Tesla...")
+# Load stock market data for Tesla for the past month
+ticker = 'TSLA'
+tkr = yf.Ticker(ticker)
+df = tkr.history(period='1mo')
+print("Data loaded.")
+```
 The data for this project comes from Yahoo Finance, accessed using the `yfinance` Python library. This allows us to work with real-time and historical stock market data, providing a realistic context for our analysis.
 
 ### Bigger Scope and Applications
