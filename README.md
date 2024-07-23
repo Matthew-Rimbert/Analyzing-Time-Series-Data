@@ -2,7 +2,7 @@
 
 ## 📋 Overview
 
-This project, created by **Matthew Rimbert**, is part of the INFO400 - MongoDB® and Python® course at American Public University System. The project focuses on analyzing time series data to extract meaningful statistics and identify trends using Tesla stock market data.
+This project focuses on analyzing time series data to extract meaningful statistics and identify trends using real-world stock market data.
 
 ### 📈 Summary
 
@@ -19,8 +19,25 @@ This project, created by **Matthew Rimbert**, is part of the INFO400 - MongoDB®
 - **Rolling Window Calculations**: Analyzing the total volume over the previous two days and predicting the next day's volume provides insights into trading patterns.
 - **Significant Price Changes**: Filtering for significant price changes helps in identifying key events or trading days that had a major impact on the stock price.
 
+### Data Source
+
+The data for this project comes from Yahoo Finance, accessed using the `yfinance` Python library. This allows us to work with real-time and historical stock market data, providing a realistic context for our analysis.
+
+### Bigger Scope and Applications
+
+The techniques used in this exercise can be applied to various real-world scenarios beyond analyzing Tesla's stock data. By understanding trends and significant changes in time series data, businesses can make informed decisions in areas such as:
+
+- **Stock Market Analysis**: Identifying trends and making investment decisions based on historical data.
+- **Sales Forecasting**: Predicting future sales based on past performance to optimize inventory and marketing strategies.
+- **Financial Planning**: Analyzing income and expenses over time to create effective budgeting plans.
+- **Economic Indicators**: Studying trends in economic data to forecast future economic conditions.
+
+By using real-time data and sophisticated analysis techniques, this project demonstrates the practical applications of time series analysis in various business contexts.
+
 ## 🎯 Objectives
 
 - Analyze time series data to extract meaningful statistics and identify trends.
 - Apply techniques such as calculating percentage changes and rolling window calculations.
+
+## 📝 Repository Structure
 
