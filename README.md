@@ -14,7 +14,7 @@ This project focuses on analyzing time series data to extract meaningful statist
   
   2. Calculate daily percentage changes in stock price and volume using the natural logarithm.
      
-  3.. Add rolling window calculations for total volume over the previous two days and the next day's volume.
+  3. Add rolling window calculations for total volume over the previous two days and the next day's volume.
      
   4. Filter the data to identify significant price changes, defined as changes greater than 5% in absolute 
 
