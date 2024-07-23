@@ -14,6 +14,9 @@ This project focuses on analyzing time series data to extract meaningful statist
 - Applying rolling window calculations to analyze trends over time.
 - Filtering data to identify days with significant price changes.
 
+# OutPut of *Tesla* Stock
+![data](https://github.com/user-attachments/assets/f5e7f20b-f559-48f9-9d53-be47afefa761)
+
 **Insights**:
 - **Daily Percentage Changes**: Calculating the daily percentage changes in stock price and volume helps in identifying short-term trends and volatility.
 - **Rolling Window Calculations**: Analyzing the total volume over the previous two days and predicting the next day's volume provides insights into trading patterns.
