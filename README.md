@@ -8,6 +8,13 @@ This project focuses on analyzing time series data to extract meaningful statist
 
 **Purpose**: The primary aim of this project is to analyze stock market data over the past month to identify trends and significant changes in price and volume.
 
+### Summary of Rules
+
+1.Load stock data for Tesla for the past month using yfinance.
+2. Calculate daily percentage changes in stock price and volume using the natural logarithm.
+3. Add rolling window calculations for total volume over the previous two days and the next day's volume.
+4. Filter the data to identify significant price changes, defined as changes greater than 5% in absolute 
+
 **Scope**: The project involves:
 - Loading Tesla stock market data using the `yfinance` library.
 - Calculating daily percentage changes in stock price and volume.
