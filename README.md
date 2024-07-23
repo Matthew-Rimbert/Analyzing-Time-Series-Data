@@ -14,7 +14,8 @@ This project focuses on analyzing time series data to extract meaningful statist
 - Applying rolling window calculations to analyze trends over time.
 - Filtering data to identify days with significant price changes.
 
-# OutPut of *Tesla* Stock
+### Sample Output:
+Running this script will display the analysis of significant changes:
 ![data](https://github.com/user-attachments/assets/f5e7f20b-f559-48f9-9d53-be47afefa761)
 
 **Insights**:
