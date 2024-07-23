@@ -15,7 +15,7 @@ This project focuses on analyzing time series data to extract meaningful statist
 - Filtering data to identify days with significant price changes.
 
 ### Sample Output:
-Running this script will display the analysis of significant changes:
+Running this script will display the analysis of significant changes over a particular stock over the past month:
 ![data](https://github.com/user-attachments/assets/f5e7f20b-f559-48f9-9d53-be47afefa761)
 
 **Insights**:
@@ -34,6 +34,12 @@ print("Data loaded.")
 ```
 The data for this project comes from Yahoo Finance, accessed using the `yfinance` Python library. This allows us to work with real-time and historical stock market data, providing a realistic context for our analysis.
 
+##🔍 Key Components
+*Filtering for Significant Changes:
+The code filters the data to identify days with significant price changes. A "significant" change is defined as an absolute daily percentage change in price greater than 5% (0.05). This is completly adjustable based on modification for flexability and use case.
+
+![changepercentage](https://github.com/user-attachments/assets/74d9bd89-6f1a-4f61-bd22-660e6be7cb1a)
+
 ### Bigger Scope and Applications
 
 The techniques used in this exercise can be applied to various real-world scenarios beyond analyzing Tesla's stock data. By understanding trends and significant changes in time series data, businesses can make informed decisions in areas such as:
@@ -44,11 +50,3 @@ The techniques used in this exercise can be applied to various real-world scenar
 - **Economic Indicators**: Studying trends in economic data to forecast future economic conditions.
 
 By using real-time data and sophisticated analysis techniques, this project demonstrates the practical applications of time series analysis in various business contexts.
-
-## 🎯 Objectives
-
-- Analyze time series data to extract meaningful statistics and identify trends.
-- Apply techniques such as calculating percentage changes and rolling window calculations.
-
-## 📝 Repository Structure
-
