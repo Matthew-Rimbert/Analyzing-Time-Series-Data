@@ -34,7 +34,7 @@ print("Data loaded.")
 ```
 The data for this project comes from Yahoo Finance, accessed using the `yfinance` Python library. This allows us to work with real-time and historical stock market data, providing a realistic context for our analysis.
 
-##🔍 Key Components
+### 🔍 Key Components
 *Filtering for Significant Changes:
 The code filters the data to identify days with significant price changes. A "significant" change is defined as an absolute daily percentage change in price greater than 5% (0.05). This is completly adjustable based on modification for flexability and use case.
 
