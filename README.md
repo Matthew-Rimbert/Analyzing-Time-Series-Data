@@ -12,7 +12,7 @@ This project focuses on analyzing time series data to extract meaningful statist
 
 ### Summary of Rules
 
-  1.Load stock data for Tesla for the past month using yfinance.
+  1. Load stock data for Tesla for the past month using yfinance.
   
   2. Calculate daily percentage changes in stock price and volume using the natural logarithm.
      
